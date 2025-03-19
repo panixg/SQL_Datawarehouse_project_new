@@ -92,7 +92,7 @@ SELECT
 SELECT * FROM gold.dim_customer
 
 SELECT
-pn.prd_id,
+pn.prd_id, --prdid
 pn.cat.id,
 pn.prd_key,
 pn.prd_nm,
